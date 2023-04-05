@@ -18,7 +18,7 @@ export default function Home() {
       <main className= 'bg-[#f5fbff] flex items-center justify-between w-full'>
        
        <div className="left  px-12 py-6 sm:px-16 sm:py-6  md:px-20 md:py-10 lg:px-24 lg:py-16 xl:px-28 xl:py-20">
-            <h1 className='font-medium text-sm w-40  sm:font-medium sm:text-2xl sm:w-60 md:font-bold md:text-3xl md:w-80 lg:font-extrabold lg:text-4xl lg:w-96 xl:font-extrabold xl:text-5xl xl:w-1/2'>
+            <h1 className='font-medium text-base w-40  sm:font-medium sm:text-2xl sm:w-60 md:font-bold md:text-3xl md:w-80 lg:font-extrabold lg:text-4xl lg:w-96 xl:font-extrabold xl:text-5xl xl:w-1/2'>
               Get the visibility and guidance you need for your business
             </h1>
 
@@ -32,12 +32,11 @@ export default function Home() {
           
         </div> 
        
-          <div className="right sm:items-end bg-white border rounded-lg  flex 
-             md:items-start md:mt-6 ">
-              <div className="pictureIcon w-10 lg:w-24 justify-end">
+          <div className="right border rounded-lg md:items-start md:mt-6  flex items-center justify-end mt-40">
+              <div className="pictureIcon w-10  mt-3">
                 <img className='rounded-full' src="/images/umair.jpeg" alt="image"/>
               </div>
-            <div className="mainbox  py-3 font-thin text-xs pl-8 md:font-medium md:text-base lg:font-lg lg:text-lg xl:font-serif xl:text-2xl">
+            <div className="mainbox  py-3 font-thin text-xs pl-3 md:font-medium md:text-base lg:font-lg lg:text-xl xl:font-serif xl:text-2xl">
             Hey Umair 👋, your sales have increased  
 
            
