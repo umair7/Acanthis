@@ -15,29 +15,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className= 'bg-[#f5fbff] flex items-center justify-between'>
+      <main className= 'bg-[#f5fbff] flex items-center justify-between w-full'>
        
-       <div className="left w-1/2 px-16 py-6 sm:px-16 sm:py-6 sm:w-96 md:px-24 md:py-10 md:w-2/3 lg:px-36 lg:py-16 lg:w-2/3 xl:px-40 xl:py-20 xl:w-2/3">
-            <h1 className='font-medium text-xl  sm:font-medium sm:text-2xl md:font-bold md:text-3xl lg:font-extrabold lg:text-4xl xl:font-extrabold xl:text-5xl'>
+       <div className="left  px-12 py-6 sm:px-16 sm:py-6  md:px-20 md:py-10 lg:px-24 lg:py-16 xl:px-28 xl:py-20">
+            <h1 className='font-medium text-sm w-40  sm:font-medium sm:text-2xl sm:w-60 md:font-bold md:text-3xl md:w-80 lg:font-extrabold lg:text-4xl lg:w-96 xl:font-extrabold xl:text-5xl xl:w-1/2'>
               Get the visibility and guidance you need for your business
             </h1>
 
-            <div className="py-6 font-thin text-[#4d4958] leading-5">
+            <div className="py-6 font-thin text-xs w-40  sm:w-60 md:text-sm md:w-80 lg:text-base lg:w-96 xl:text-lg xl:w-96 text-[#4d4958] leading-5">
               Acanthis is a smart platform for SMEs that helps them make better decisions so they can stay ahead of the game.
             </div>
 
-            <button className="text-xs py-1 px-2 sm:text-xs sm:py-1 sm:px-2 md:text-sm md:py-2 md:px-3 lg:text-lg lg:py-3 lg:px-4 xl:text-xl xl:py-4 xl:px-5 bg-[#FD4C00] hover:bg-[#ac2020e0] text-white font-thin border border-[#FD4C00] hover:border-transparent rounded">
+            <button className="text-xs py-1 px-2 sm:text-xs sm:py-1 sm:px-2 md:text-sm md:py-2 md:px-3 w lg:text-lg lg:py-3 lg:px-4 xl:text-xl xl:py-4 xl:px-5 bg-[#FD4C00] hover:bg-[#ac2020e0] text-white font-thin border border-[#FD4C00] hover:border-transparent rounded">
               Learn More
             </button>
           
         </div> 
        
-          <div className="right   w-1/2 mt-36 sm:items-end bg-white border rounded-lg border-[#f5fbff]  flex 
-           px-5 md:h-96 md:items-start md:mt-6 ">
-              <div className="pictureIcon w-10 lg:w-24">
+          <div className="right sm:items-end bg-white border rounded-lg  flex 
+             md:items-start md:mt-6 ">
+              <div className="pictureIcon w-10 lg:w-24 justify-end">
                 <img className='rounded-full' src="/images/umair.jpeg" alt="image"/>
               </div>
-            <div className="mainbox  py-3 font-thin text-sm pl-8 md:font-medium md:text-base lg:font-lg lg:text-lg xl:font-serif xl:text-2xl">
+            <div className="mainbox  py-3 font-thin text-xs pl-8 md:font-medium md:text-base lg:font-lg lg:text-lg xl:font-serif xl:text-2xl">
             Hey Umair 👋, your sales have increased  
 
            
